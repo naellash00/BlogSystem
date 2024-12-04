@@ -35,6 +35,7 @@ public class Post {
     private Integer userid;
 
     @JsonFormat(pattern = "yyyy-MM-dd")
+    @Column(columnDefinition = "date")
     private LocalDate publishDate;
 
 
